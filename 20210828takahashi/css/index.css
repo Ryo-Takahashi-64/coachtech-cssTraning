@@ -1,0 +1,77 @@
+body {
+  width: 100%;
+  padding-bottom: 70px;
+}
+.firstview__title {
+  background: 100% url("../img/firstview.jpg") no-repeat;
+  height: 400px;
+  font-size: 40px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__content {
+  padding-top: 70px;
+  width: 1000px;
+}
+.main__content-title {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+/* About */
+.main__about {
+  text-align: center;
+}
+
+/* ブログ */
+.main__blog__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.main__blog__card {
+  width: 30%;
+}
+.main__blog__card-img {
+  width: 100%;
+}
+.main__blog__card-title {
+  margin: 20px 0;
+}
+/* 問い合わせ */
+.main__form {
+  margin: 0 auto;
+  width: 780px;
+}
+.main__form__item {
+  width: 100%;
+}
+.main__form__label {
+  text-align: left;
+  display: inline-block;
+  margin: 10px 0;
+}
+.main__form__input {
+  display: inline-block;
+  width: 100%;
+}
+.main__form__btn-item {
+  display: flex;
+  justify-content: center;
+}
+.main__form__btn {
+  width: 200px;
+  border: none;
+  padding: 10px 0;
+  margin: 0 15px;
+}
+.main__form__btn.delete__btn {
+  background: #ccc;
+  color: #000;
+}
+.main__form__btn.submit__btn {
+  background: #5bc8ac;
+  color: #fff;
+}

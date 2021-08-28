@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS確認テスト</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <h1 class="firstview__title">キャッチコピー</h1>
+  <section>
+    <div class="main__content">
+      <div class="main__about">
+        <h2 class="main__content-title">About</h2>
+        <p>
+          COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>
+          プログラミング未経験の方でも、<strong>「独自の学習ノウハウ」</strong>でフリーランスエンジニアを目指すことができます。
+        </p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="main__content">
+      <h2 class="main__content-title">ブログ</h2>
+      <div class="main__blog__wrap">
+        <div class="main__blog__card">
+          <img class="main__blog__card-img" src="./img/blog__eyecatch1.jpg" alt="#">
+          <h3 class="main__blog__card-title">
+            コーチテックブログのタイトルがここには入ります。
+          </h3>
+        </div>
+        <div class="main__blog__card">
+          <img class="main__blog__card-img" src="./img/blog__eyecatch2.jpg" alt="#">
+          <h3 class="main__blog__card-title">
+            コーチテックブログのタイトルがここには入ります。
+          </h3>
+        </div>
+        <div class="main__blog__card">
+          <img class="main__blog__card-img" src="./img/blog__eyecatch3.jpg" alt="#">
+          <h3 class="main__blog__card-title">
+            コーチテックブログのタイトルがここには入ります。
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="main__content">
+      <h2 class="main__content-title">問い合わせ</h2>
+      <form action="./index.html"　method="POST">
+        <div class="main__form">
+          <table class="main__form__item">
+            <tr>
+              <th class="main__form__label">
+                <label for="name">名前</label>
+              </th>
+              <td>
+                <input type="text" name="name" class="main__form__input">
+              </td>
+            </tr>
+            <tr>
+              <th class="main__form__label"><label for="email">メールアドレス</label></th>
+              <td>
+                <input type="email" name="email" class="main__form__input">
+              </td>
+            </tr>
+            <tr>
+              <th class="main__form__label">
+                <label for="requirement">用件</label>
+              </th>
+              <td>
+                <select name="requirement">
+                  <option value="1">広告掲載について</option>
+                  <option value="2">広告掲載について</option>
+                  <option value="3">広告掲載について</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th class="main__form__label">
+                <label for="detail">内容</label>
+              </th>
+              <td>
+                <textarea name="detail" id="detail" class="main__form__input" cols="30" rows="15"></textarea>
+              </td>
+            </tr>
+          </table>
+          <div class="main__form__btn-item">
+            <button class="main__form__btn delete__btn">削除</button>
+            <button class="main__form__btn submit__btn">送信</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
